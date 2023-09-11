@@ -1,0 +1,55 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(217, 19%, 24%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.advice-container {
+  background-color: hsl(217, 19%, 38%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.h {
+  font-size: 15px;; /* Aumentado el tamaño de texto para h1 */
+  margin-bottom: 20px;
+  color: hsl(150, 100%, 66%);
+}
+
+p {
+  font-size: 35px; /* Reducido el tamaño de texto para p */
+  color: hsl(0, 0%, 100%); 
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: hsl(150, 100%, 66%); 
+  color: hsl(0, 0%, 0%);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.dice-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: hsl(150, 100%, 66%); 
+}
